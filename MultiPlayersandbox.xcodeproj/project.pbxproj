@@ -15,6 +15,19 @@
 		273B3E7E20D40A230082684C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273B3E7C20D40A230082684C /* LaunchScreen.storyboard */; };
 		273B3E8920D40A230082684C /* MultiPlayersandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3E8820D40A230082684C /* MultiPlayersandboxTests.swift */; };
 		273B3E9420D40A230082684C /* MultiPlayersandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3E9320D40A230082684C /* MultiPlayersandboxUITests.swift */; };
+		273B3EB020D40A4D0082684C /* PeerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA220D40A4D0082684C /* PeerBrowserViewController.swift */; };
+		273B3EB120D40A4D0082684C /* MultiPeerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA420D40A4D0082684C /* MultiPeerHandler.swift */; };
+		273B3EB220D40A4D0082684C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA620D40A4D0082684C /* Player.swift */; };
+		273B3EB320D40A4D0082684C /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA720D40A4D0082684C /* Action.swift */; };
+		273B3EB420D40A4D0082684C /* WorldMapExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA820D40A4D0082684C /* WorldMapExtractor.swift */; };
+		273B3EB520D40A4D0082684C /* GameCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EA920D40A4D0082684C /* GameCommand.swift */; };
+		273B3EB620D40A4D0082684C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EAB20D40A4D0082684C /* Log.swift */; };
+		273B3EB720D40A4D0082684C /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EAC20D40A4D0082684C /* Data+Compression.swift */; };
+		273B3EB820D40A4D0082684C /* BitStreamCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EAE20D40A4D0082684C /* BitStreamCodable.swift */; };
+		273B3EB920D40A4D0082684C /* BitStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EAF20D40A4D0082684C /* BitStream.swift */; };
+		273B3EBC20D40AB00082684C /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B3EBB20D40AB00082684C /* OverlayPlane.swift */; };
+		273B3EBE20D40C730082684C /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 273B3EBD20D40C720082684C /* overlay_grid.png */; };
+		4CC8CF7F011C332F93DF275A /* Pods_MultiPlayersandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AADEC8122B9EF7CD9AC9C2 /* Pods_MultiPlayersandbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,21 @@
 		273B3E8F20D40A230082684C /* MultiPlayersandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPlayersandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273B3E9320D40A230082684C /* MultiPlayersandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayersandboxUITests.swift; sourceTree = "<group>"; };
 		273B3E9520D40A230082684C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273B3EA220D40A4D0082684C /* PeerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerBrowserViewController.swift; sourceTree = "<group>"; };
+		273B3EA420D40A4D0082684C /* MultiPeerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerHandler.swift; sourceTree = "<group>"; };
+		273B3EA620D40A4D0082684C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		273B3EA720D40A4D0082684C /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		273B3EA820D40A4D0082684C /* WorldMapExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldMapExtractor.swift; sourceTree = "<group>"; };
+		273B3EA920D40A4D0082684C /* GameCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCommand.swift; sourceTree = "<group>"; };
+		273B3EAB20D40A4D0082684C /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		273B3EAC20D40A4D0082684C /* Data+Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
+		273B3EAE20D40A4D0082684C /* BitStreamCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamCodable.swift; sourceTree = "<group>"; };
+		273B3EAF20D40A4D0082684C /* BitStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStream.swift; sourceTree = "<group>"; };
+		273B3EBB20D40AB00082684C /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		273B3EBD20D40C720082684C /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+		44AADEC8122B9EF7CD9AC9C2 /* Pods_MultiPlayersandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiPlayersandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		944398C9CA091196AFB98106 /* Pods-MultiPlayersandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPlayersandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPlayersandbox/Pods-MultiPlayersandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		C859BE9CBC105F7B99960E78 /* Pods-MultiPlayersandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPlayersandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPlayersandbox/Pods-MultiPlayersandbox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC8CF7F011C332F93DF275A /* Pods_MultiPlayersandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				273B3E8720D40A230082684C /* MultiPlayersandboxTests */,
 				273B3E9220D40A230082684C /* MultiPlayersandboxUITests */,
 				273B3E6F20D40A220082684C /* Products */,
+				B3581D09901E2D5D2F7F5F1F /* Pods */,
+				E50CF55FB5604CE0CA302533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +130,9 @@
 		273B3E7020D40A220082684C /* MultiPlayersandbox */ = {
 			isa = PBXGroup;
 			children = (
+				273B3EBD20D40C720082684C /* overlay_grid.png */,
+				273B3EBA20D40AA80082684C /* Nodes */,
+				273B3EA120D40A4D0082684C /* MultipeerComponnent */,
 				273B3E7120D40A220082684C /* AppDelegate.swift */,
 				273B3E7320D40A220082684C /* art.scnassets */,
 				273B3E7520D40A220082684C /* ViewController.swift */,
@@ -128,6 +162,80 @@
 			path = MultiPlayersandboxUITests;
 			sourceTree = "<group>";
 		};
+		273B3EA120D40A4D0082684C /* MultipeerComponnent */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EA220D40A4D0082684C /* PeerBrowserViewController.swift */,
+				273B3EA320D40A4D0082684C /* Networking */,
+				273B3EA520D40A4D0082684C /* Models */,
+				273B3EA820D40A4D0082684C /* WorldMapExtractor.swift */,
+				273B3EAA20D40A4D0082684C /* Helpers */,
+				273B3EAD20D40A4D0082684C /* BitStream Encoding */,
+			);
+			path = MultipeerComponnent;
+			sourceTree = "<group>";
+		};
+		273B3EA320D40A4D0082684C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EA420D40A4D0082684C /* MultiPeerHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		273B3EA520D40A4D0082684C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EA620D40A4D0082684C /* Player.swift */,
+				273B3EA920D40A4D0082684C /* GameCommand.swift */,
+				273B3EA720D40A4D0082684C /* Action.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		273B3EAA20D40A4D0082684C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EAB20D40A4D0082684C /* Log.swift */,
+				273B3EAC20D40A4D0082684C /* Data+Compression.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		273B3EAD20D40A4D0082684C /* BitStream Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EAE20D40A4D0082684C /* BitStreamCodable.swift */,
+				273B3EAF20D40A4D0082684C /* BitStream.swift */,
+			);
+			path = "BitStream Encoding";
+			sourceTree = "<group>";
+		};
+		273B3EBA20D40AA80082684C /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				273B3EBB20D40AB00082684C /* OverlayPlane.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		B3581D09901E2D5D2F7F5F1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944398C9CA091196AFB98106 /* Pods-MultiPlayersandbox.debug.xcconfig */,
+				C859BE9CBC105F7B99960E78 /* Pods-MultiPlayersandbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E50CF55FB5604CE0CA302533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44AADEC8122B9EF7CD9AC9C2 /* Pods_MultiPlayersandbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273B3E9820D40A230082684C /* Build configuration list for PBXNativeTarget "MultiPlayersandbox" */;
 			buildPhases = (
+				13EC10D1E0FF652956860D14 /* [CP] Check Pods Manifest.lock */,
 				273B3E6A20D40A220082684C /* Sources */,
 				273B3E6B20D40A220082684C /* Frameworks */,
 				273B3E6C20D40A220082684C /* Resources */,
+				C34DC92CEAE17F81E55101EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273B3E7420D40A220082684C /* art.scnassets in Resources */,
+				273B3EBE20D40C730082684C /* overlay_grid.png in Resources */,
 				273B3E7E20D40A230082684C /* LaunchScreen.storyboard in Resources */,
 				273B3E7B20D40A230082684C /* Assets.xcassets in Resources */,
 				273B3E7920D40A220082684C /* Main.storyboard in Resources */,
@@ -255,12 +366,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13EC10D1E0FF652956860D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiPlayersandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34DC92CEAE17F81E55101EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultiPlayersandbox/Pods-MultiPlayersandbox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiPlayersandbox/Pods-MultiPlayersandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		273B3E6A20D40A220082684C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273B3EB820D40A4D0082684C /* BitStreamCodable.swift in Sources */,
+				273B3EB920D40A4D0082684C /* BitStream.swift in Sources */,
 				273B3E7620D40A220082684C /* ViewController.swift in Sources */,
+				273B3EB320D40A4D0082684C /* Action.swift in Sources */,
+				273B3EBC20D40AB00082684C /* OverlayPlane.swift in Sources */,
+				273B3EB620D40A4D0082684C /* Log.swift in Sources */,
+				273B3EB020D40A4D0082684C /* PeerBrowserViewController.swift in Sources */,
+				273B3EB120D40A4D0082684C /* MultiPeerHandler.swift in Sources */,
+				273B3EB220D40A4D0082684C /* Player.swift in Sources */,
+				273B3EB520D40A4D0082684C /* GameCommand.swift in Sources */,
+				273B3EB420D40A4D0082684C /* WorldMapExtractor.swift in Sources */,
+				273B3EB720D40A4D0082684C /* Data+Compression.swift in Sources */,
 				273B3E7220D40A220082684C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +593,13 @@
 		};
 		273B3E9920D40A230082684C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944398C9CA091196AFB98106 /* Pods-MultiPlayersandbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29Q3G93Q5T;
 				INFOPLIST_FILE = MultiPlayersandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +613,13 @@
 		};
 		273B3E9A20D40A230082684C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C859BE9CBC105F7B99960E78 /* Pods-MultiPlayersandbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29Q3G93Q5T;
 				INFOPLIST_FILE = MultiPlayersandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
